@@ -1,0 +1,105 @@
+HTML
+
+Estrutura básica
+
+<!DOCTYPE html> → Define que o documento é HTML5.
+
+<html> → Elemento raiz da página.
+
+<head> → Contém metadados, links de CSS, scripts, título, etc.
+
+<title> → Título da página exibido na aba do navegador.
+
+<body> → Contém todo o conteúdo visível da página.
+
+
+
+Textos e títulos
+
+<h1> a <h6> → Cabeçalhos, <h1> é o mais importante, <h6> o menos.
+
+<p> → Parágrafo.
+
+<strong> → Texto em negrito, com ênfase.
+
+<em> → Texto em itálico, enfatizado.
+
+<br> → Quebra de linha.
+
+<hr> → Linha horizontal para separar conteúdos.
+
+Links e imagens
+
+<a href="URL"> → Link para outra página ou site.
+
+<img src="caminho" alt="descrição"> → Insere imagem.
+
+<figure> e <figcaption> → Agrupa imagem e legenda.
+
+
+
+Listas
+
+<ul> → Lista não ordenada (com marcadores).
+
+<ol> → Lista ordenada (numerada).
+
+<li> → Item de lista (usada dentro de <ul> ou <ol>).
+
+Tabelas
+
+<table> → Cria uma tabela.
+
+<tr> → Linha da tabela.
+
+<td> → Célula da tabela.
+
+<th> → Cabeçalho da tabela (em negrito e centralizado).
+
+<caption> → Título da tabela.
+
+
+
+Formulários
+
+<form> → Define um formulário.
+
+<input> → Campo de entrada de dados (texto, senha, checkbox, etc).
+
+<textarea> → Área de texto maior.
+
+<button> → Botão clicável.
+
+<select> e <option> → Caixa de seleção e opções.
+
+
+
+Elementos de organização
+
+<div> → Contêiner genérico para agrupar elementos.
+
+<span> → Contêiner inline genérico.
+
+<header> → Cabeçalho da página ou seção.
+
+<nav> → Área de navegação (menus).
+
+<main> → Conteúdo principal da página.
+
+<section> → Seção do conteúdo.
+
+<article> → Conteúdo independente, como post ou notícia.
+
+<footer> → Rodapé da página.
+
+
+
+Outros importantes
+
+<meta> → Define metadados, como charset, viewport, descrição.
+
+<link> → Liga arquivos externos, como CSS.
+
+<script> → Inserir scripts JS.
+
+<style> → Inserir CSS diretamente no HTML.

@@ -1,0 +1,10 @@
+Internet
+
+- Site responsivo: se adapta a diferentes telas
+- padrão w3c
+- Renderização: processo pelo qual se obtém o produto final de um processamento digital qualquer
+
+Git
+
+- para clonar um repositório utilize o comando:
+  git clone <link_repositorio>

@@ -1,0 +1,97 @@
+CSS
+
+Principais Propriedades do CSS
+
+Cores e fundo
+
+color → cor do texto.
+
+background-color → cor de fundo.
+
+background-image → imagem de fundo.
+
+
+Texto e fonte
+
+font-family → tipo de fonte.
+
+font-size → tamanho do texto.
+
+font-weight → espessura (bold, normal, etc.).
+
+text-align → alinhamento (left, center, right).
+
+line-height → espaçamento entre linhas.
+
+text-decoration → sublinhado, tachado etc.
+
+
+Box Model
+
+width / height → largura e altura.
+
+padding → espaçamento interno.
+
+margin → espaçamento externo.
+
+border → borda ao redor do elemento.
+
+
+Layout
+
+display → define como o elemento se comporta (block, inline, flex, grid, etc.).
+
+position → posicionamento (static, relative, absolute, fixed, sticky).
+
+top, bottom, left, right → deslocamentos com position.
+
+z-index → ordem de sobreposição.
+
+flex e grid → para layouts responsivos modernos.
+
+
+Efeitos
+
+opacity → transparência.
+
+box-shadow → sombra em caixas.
+
+text-shadow → sombra em textos.
+
+transition → animação suave entre estados.
+
+transform → rotacionar, escalar, mover.
+
+
+Seletores = dizem quem vai receber o estilo
+Propriedades = dizem o que vai mudar (cor, tamanho, espaçamento, etc.)
+Valores = definem como (ex: red, 20px, center)
+
+
+EX:
+
+Seletor de elemento: aplica estilo a uma tag específica (p, h1, div, a)
+p { color: blue; }
+
+
+Classe (.classe): usada para agrupar estilos que podem ser aplicados a vários elementos
+.destaque { background: yellow; }
+
+
+ID (#id): identifica um único elemento
+#titulo { font-size: 24px; }
+
+
+Seletores combinados:
+
+Descendente (div p) → estilos aplicados apenas a p dentro de div
+Agrupamento (h1, h2, h3) → aplica estilo a vários elementos ao mesmo tempo
+
+
+
+Pseudo-classes: estados especiais dos elementos
+a:hover { color: red; }
+
+
+Pseudo-elementos: estilizam partes específicas de um elemento
+p::first-line { font-weight: bold; }
